@@ -1,0 +1,7 @@
+name=input("Enter your name: ")
+print("Formatted Name:",name.strip().title())
+name=(name.strip().title())
+print("Total Characters:",len(name))
+print("Starts with S:",name.startswith("S"))
+print("Contains Mujawar:","Mujawar" in name)
+print("Ends with Mujawar:",name.endswith("Mujawar"))
